@@ -8,10 +8,10 @@ Deployed TrueNAS Core to implement backup capabilities and file sharing within t
 
 ## Environments and Technologies Used
 
+- Proxmox VE virtual machine with PCI passthrough enabled for direct access to disks
 - FreeNAS Mini 4 Bay 
     - 8-Core 2.4GHz Processor
     - 32GB RAM
-- Proxmox VE virtual machine with PCI passthrough enabled for direct access to disks
 
 ## Operating Systems Used
 
