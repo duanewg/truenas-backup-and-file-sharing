@@ -1,6 +1,5 @@
 <p align="center">
-<img src="https://place-hold.it/600x200" alt="Place Holder Image"/>
-<!-- <img src="assets/logo.svg" alt="Logo Text There" /> -->
+<img src="assets/true-nas-core-logo.svg" alt="Logo Text There" />
 </p>
 
 # TrueNAS Core deployment for backup and file sharing
