@@ -3,18 +3,19 @@
 <!-- <img src="assets/logo.svg" alt="Logo Text There" /> -->
 </p>
 
-# Project Title
-"[Project Name]" involves [briefly describe the main objective or purpose of the project] utilizing [mention any specific tools, technologies, or platforms]. This project aims to [mention the primary goal or outcome] to [highlight the intended impact or benefit].
+# TrueNAS Core deployment for backup and file sharing
+Deployed TrueNAS Core to implement backup capabilities and file sharing within the organization. This solution centralizes data storage, improves data integrity, and provides secure and scalable file sharing functionalities.
 
 ## Environments and Technologies Used
 
-- Item 1
-- Item 2
-- Item 3
+- FreeNAS Mini 4 Bay 
+    - 8-Core 2.4GHz Processor
+    - 32GB RAM
+- Proxmox VE virtual machine with PCI passthrough enabled for direct access to disks
 
 ## Operating Systems Used
 
-- Operating System Name
+- TrueNAS Core 11
 
 ## High-Level Deployment and Configuration Steps
 
