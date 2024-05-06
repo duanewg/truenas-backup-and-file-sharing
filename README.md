@@ -19,11 +19,16 @@ Deployed TrueNAS Core to implement backup capabilities and file sharing within t
 
 ## High-Level Deployment and Configuration Steps
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-- Step 5
+- Install TrueNAS Core on the machine using a bootable USB with the TrueNAS installation ISO
+    - Configure the boot disk, root password, BIOS vs UEFI, and swap
+- Launch the web user interface and complete the initial setup wizard, including setting the system's hostname, timezone, and network configuration
+- Configure network interfaces with static IP addresses and configure DNS settings
+- Configure storage pools by selecting the drives and choosing the ZFS configuration
+- Create datasets within storage pools to organize your data and set permissions for access control.
+- Enable and configure the required services for file sharing and backup 
+    - SMB/CIFS, NF, AFP, FTP, SSH, or iSCSI for block-level storage access
+- Create user accounts and groups or sync with Active Directory to manage access to shared resources and assign permissions
+- Set up backups, regular snapshots, and replication between the two local systems
 
 <h2>Architecture Diagram</h2>
 
